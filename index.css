@@ -9,6 +9,10 @@ html {
   html { font-family: 'Inter var', sans-serif; }
 }
 
+body {
+	background-color: black;
+}
+
 main {
 	display: table;
 	height: 100%;

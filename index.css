@@ -2,6 +2,7 @@
 
 html {
 	font-family: 'Inter', sans-serif;
+	box-sizing: border-box;
 }
 
 @supports (font-variation-settings: normal) {
@@ -9,7 +10,19 @@ html {
 }
 
 main {
+	display: table;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
 	width: 44vw;
+}
+
+section {
+	vertical-align: middle;
+	display: table-cell;
 }
 
 .title {
@@ -17,4 +30,6 @@ main {
 	font-weight: 500;
 	word-wrap: normal;
 	word-break: normal;
+	color: white;
+	width: 100%;
 }
